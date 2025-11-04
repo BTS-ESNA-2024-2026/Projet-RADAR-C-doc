@@ -1,0 +1,61 @@
+site_name: RADAR Documentation
+site_description: Un outil pour récupérer des informations depuis un Active Directory distant
+site_author: Baptiste
+repo_url: https://github.com/truerustyy/radar
+repo_name: radar
+
+theme:
+  name: material
+  language: fr
+  palette:
+    # Palette toggle for light mode
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Passer en mode sombre
+    # Palette toggle for dark mode
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Passer en mode clair
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.code.annotate
+
+plugins:
+  - search:
+      lang: fr
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - admonition
+  - pymdownx.details
+  - pymdownx.tabbed:
+      alternate_style: true
+  - attr_list
+  - md_in_html
+  - tables
+
+nav:
+  - Accueil: index.md
+  - Installation: installation.md
+  - Utilisation: usage.md
+  - Fonctionnement: how-it-works.md
