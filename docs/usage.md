@@ -87,7 +87,9 @@ ID | Name      | Members
 
 ```bash
 python main.py --host <IP> --username <USER> --password <PASS> --domain-controllers
-```!!! inf "Précision"
+```
+
+!!! inf "Précision"
     Utilisez cette option pour générer un résultat en format Json ou CSV.
 
 **Sortie exemple :**
