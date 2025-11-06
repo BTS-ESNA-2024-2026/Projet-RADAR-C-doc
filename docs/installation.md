@@ -14,7 +14,7 @@ Avant d'installer RADAR, assurez-vous d'avoir :
 ### 1. Cloner le projet
 
 ```bash
-git clone https://github.com/truerustyy/radar.git
+git clone https://github.com/BTS-ESNA-2024-2026/Projet-RADAR-C.git
 cd radar
 ```
 
@@ -23,7 +23,7 @@ cd radar
 === "Linux/Mac"
     ```bash
     python3 -m venv venv
-    source venv/bin/activate
+     source ./venv/bin/activate
     ```
 
 === "Windows"

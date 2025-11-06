@@ -18,7 +18,7 @@ python main.py --host 192.168.151.37 --username Administrateur --password AdminP
 | `--users` | `-u` | Lister tous les utilisateurs |
 | `--computers` | `-c` | Lister tous les ordinateurs |
 | `--groups` | `-g` | Lister tous les groupes |
-| `--domain-controllers` | `-dc` | Lister tous les contrôleurs de domaine |
+| `--domain-controllers` | `-d` | Lister tous les contrôleurs de domaine |
 | `--disabled` | - | Filtrer uniquement les utilisateurs désactivés (avec `--users`) |
 | `--expired` | - | Filtrer uniquement les utilisateurs expirés (avec `--users`) |
 | `--debug` | - | Activer le mode debug |
@@ -87,7 +87,8 @@ ID | Name      | Members
 
 ```bash
 python main.py --host <IP> --username <USER> --password <PASS> --domain-controllers
-```
+```!!! inf "Précision"
+    Utilisez cette option pour générer un résultat en format Json ou CSV.
 
 **Sortie exemple :**
 ```text
@@ -98,7 +99,7 @@ ID | Name | IP
 
 ### Type de sortie Json/CSV
 
-!!! inf "Précision"
+!!! note "Précision"
     Utilisez cette option pour générer un résultat en format Json ou CSV.
 
 ```bash
