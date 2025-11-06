@@ -15,7 +15,7 @@ Avant d'installer RADAR, assurez-vous d'avoir :
 
 ```bash
 git clone https://github.com/BTS-ESNA-2024-2026/Projet-RADAR-C.git
-cd radar
+cd Projet-RADAR-C
 ```
 
 ### 2. Créer et activer un environnement virtuel Python
