@@ -14,7 +14,7 @@ Avant d'installer RADAR, assurez-vous d'avoir :
 ### 1. Cloner le projet
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/truerustyy/radar.git
 cd radar
 ```
 

@@ -1,7 +1,7 @@
 site_name: RADAR Documentation
 site_description: Un outil pour récupérer des informations depuis un Active Directory distant
 site_author: Baptiste
-repo_url: https://github.com/truerustyy/radar
+repo_url: https://github.com/BTS-ESNA-2024-2026/Projet-RADAR-C
 repo_name: radar
 
 theme:

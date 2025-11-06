@@ -8,7 +8,7 @@ python main.py --host <IP> --username <USER> --password <PASS> [OPTIONS]
 
 **Exemple :**
 ```bash
-python main.py --host 192.168.1.100 --username Administrateur --password AdminP4ss --users
+python main.py --host <IP> --username <USER> --password <PASS> --users
 ```
 
 ## Options disponibles
@@ -29,12 +29,12 @@ python main.py --host 192.168.1.100 --username Administrateur --password AdminP4
 
 **Lister tous les utilisateurs :**
 ```bash
-python main.py --host 192.168.1.100 --username Administrateur --password AdminP4ss --users
+python main.py --host <IP> --username <USER> --password <PASS> --users
 ```
 
 **Uniquement les utilisateurs désactivés :**
 ```bash
-python main.py --host 192.168.1.100 --username Administrateur --password AdminP4ss --users --disabled
+python main.py --host <IP> --username <USER> --password <PASS> --users --disabled
 ```
 
 !!! tip "Conseil"
@@ -42,7 +42,7 @@ python main.py --host 192.168.1.100 --username Administrateur --password AdminP4
 
 **Uniquement les utilisateurs expirés :**
 ```bash
-python main.py --host 192.168.1.100 --username Administrateur --password AdminP4ss --users --expired
+python main.py --host <IP> --username <USER> --password <PASS> --users --expired
 ```
 
 **Sortie exemple :**
@@ -56,7 +56,7 @@ ID | Username  | Firstname | Lastname | Groups    | Last login  | Disabled | Exp
 ### Ordinateurs
 
 ```bash
-python main.py --host 192.168.1.100 --username Administrateur --password AdminP4ss --computers
+python main.py --host <IP> --username <USER> --password <PASS> --computers
 ```
 
 **Sortie exemple :**
@@ -70,7 +70,7 @@ ID | Hostname | Groups
 ### Groupes
 
 ```bash
-python main.py --host 192.168.1.100 --username Administrateur --password AdminP4ss --groups
+python main.py --host <IP> --username <USER> --password <PASS> --groups
 ```
 
 **Sortie exemple :**
@@ -84,7 +84,7 @@ ID | Name      | Members
 ### Contrôleurs de domaine
 
 ```bash
-python main.py --host 192.168.1.100 --username Administrateur --password AdminP4ss --domain-controllers
+python main.py --host <IP> --username <USER> --password <PASS> --domain-controllers
 ```
 
 **Sortie exemple :**
