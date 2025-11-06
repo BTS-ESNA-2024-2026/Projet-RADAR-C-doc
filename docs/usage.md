@@ -22,6 +22,8 @@ python main.py --host 192.168.151.37 --username Administrateur --password AdminP
 | `--disabled` | - | Filtrer uniquement les utilisateurs désactivés (avec `--users`) |
 | `--expired` | - | Filtrer uniquement les utilisateurs expirés (avec `--users`) |
 | `--debug` | - | Activer le mode debug |
+| `--oJ` | - | Output in JSON |
+| `--oC` | - | Output in CSV |
 
 ## Exemples par fonctionnalité
 
@@ -92,4 +94,17 @@ python main.py --host <IP> --username <USER> --password <PASS> --domain-controll
 ID | Name | IP
 ---|------|--------------
 1  | dc1  | 192.168.1.123
+```
+
+### Type de sortie Json/CSV
+
+!!! inf "Précision"
+    Utilisez cette option pour générer un résultat en format Json ou CSV.
+
+```bash
+python main.py --host <IP> --username <USER> --password <PASS> --user --oJ
+```
+
+```bash
+python main.py --host <IP> --username <USER> --password <PASS> --user --oC
 ```
