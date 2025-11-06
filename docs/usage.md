@@ -99,8 +99,8 @@ ID | Name | IP
 
 ### Type de sortie Json/CSV
 
-!!! note "Précision"
-    Utilisez cette option pour générer un résultat en format Json ou CSV.
+!!! info "Précision"
+    Utilisez cette option pour générer un résultat au format Json ou CSV.
 
 ```bash
 python main.py --host <IP> --username <USER> --password <PASS> --user --oJ
