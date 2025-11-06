@@ -1,6 +1,6 @@
 # RADAR
 
-Un outil CLI Python pour interroger Active Directory via SSH et PowerShell.
+Un outil CLI Python pour interroger Active Directory via SSH et PowerShell. [Rapport Complet](https://www.notion.so/RAPPORT_PROJET_RADAR-2a1cfc3558a680d39731c60c7e60ce37?source=copy_link)
 
 ## Présentation
 
