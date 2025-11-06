@@ -8,7 +8,7 @@ python main.py --host <IP> --username <USER> --password <PASS> [OPTIONS]
 
 **Exemple :**
 ```bash
-python main.py --host <IP> --username <USER> --password <PASS> --users
+python main.py --host 192.168.151.37 --username Administrateur --password AdminP4ss --users
 ```
 
 ## Options disponibles
