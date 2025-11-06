@@ -11,7 +11,7 @@ Avant d'installer RADAR, assurez-vous d'avoir :
 
 ## Étapes d'installation
 
-### 1. Cloner le projet
+### 1. Cloner le projet 
 
 ```bash
 git clone https://github.com/BTS-ESNA-2024-2026/Projet-RADAR-C.git
