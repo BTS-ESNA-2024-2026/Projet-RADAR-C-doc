@@ -1,6 +1,6 @@
 # Documentation
 
-Cette documentation a été générée avec MkDocs.
+Cette [documentation](https://bts-esna-2024-2026.github.io/Projet-RADAR-C-doc/) a été générée avec MkDocs.
 
 ## Structure
 
